@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">SaveMySpace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SaveMySpace</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Gallery</string>
+    <string name="title_section2">Contacts</string>
+<string name="delete_backup">DELETE-BACKUP</string>
+<string name="showpopup">showpopup</string>
+<string name="delete">delete</string>
+<string name="cancel">cancel</string>
+</resources>

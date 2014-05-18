@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  
+      android:background="#ffffff"
+    >
+
+    <RelativeLayout
+        android:id="@+id/image_back"
+        android:layout_width="62dp"
+        android:layout_height="62dp"       
+        android:layout_marginTop="5dp"
+         android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#333333"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageoprofile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:clickable="false" />
+    </RelativeLayout>
+    
+     <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"     
+        android:text="Sanu K Soman"
+         android:layout_toRightOf="@+id/image_back"
+        android:textColor="#100E2B"
+        android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+         android:layout_below="@+id/name"      
+        android:layout_toRightOf="@+id/image_back"
+        android:text="9995674821"
+        android:textColor="#0404B4"
+        android:textSize="16sp" />
+
+   
+    
+   <CheckBox        
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"        
+      
+       />
+ 
+</RelativeLayout>
